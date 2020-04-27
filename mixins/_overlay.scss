@@ -1,0 +1,10 @@
+@mixin overlay($color, $amount, $index) {
+    content: '';
+    background-color: transparentize($color, $amount);
+    position: absolute;
+    z-index: $index;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
