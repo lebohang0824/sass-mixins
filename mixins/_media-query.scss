@@ -1,0 +1,27 @@
+$large: 992px;
+$medium: 768px;
+$small: 480px;
+
+@mixin lg-screen {
+	@media screen and (min-width: $large) {
+		& {
+			@content
+		}
+	}
+}
+
+@mixin md-screen {
+	@media screen and (min-width: $medium) {
+		& {
+			@content
+		}
+	}
+}
+
+@mixin sm-screen {
+	@media screen and (min-width: $small) {
+		& {
+			@content
+		}
+	}
+}
