@@ -1,0 +1,3 @@
+@mixin transparent($color, $amount) {
+	background-color: transparentize($color, $amount);
+}
