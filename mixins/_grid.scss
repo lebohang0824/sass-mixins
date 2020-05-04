@@ -7,3 +7,7 @@
 @mixin grid-columns($columns) {
     grid-template-columns: $columns;
 }
+
+@mixin grid-rows($rows) {
+    grid-template-rows: $rows;
+}
