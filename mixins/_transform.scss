@@ -1,0 +1,64 @@
+@mixin rotate($args...) {
+	-webkit-transform: rotate(#{$args}); 
+	   -moz-transform: rotate(#{$args}); 
+		-ms-transform: rotate(#{$args}); 
+		 -o-transform: rotate(#{$args}); 
+		    transform: rotate(#{$args});
+}
+
+@mixin rotateY($args...) {
+	-webkit-transform: rotateY(#{$args}); 
+	   -moz-transform: rotateY(#{$args}); 
+		-ms-transform: rotateY(#{$args}); 
+		 -o-transform: rotateY(#{$args}); 
+		    transform: rotateY(#{$args});
+}
+
+@mixin rotateX($args...) {
+	-webkit-transform: rotateX(#{$args}); 
+	   -moz-transform: rotateX(#{$args}); 
+		-ms-transform: rotateX(#{$args}); 
+		 -o-transform: rotateX(#{$args}); 
+		    transform: rotateX(#{$args});
+}
+
+@mixin skew($args...) {
+	-webkit-transform: skew(#{$args}); 
+	   -moz-transform: skew(#{$args}); 
+		-ms-transform: skew(#{$args}); 
+		 -o-transform: skew(#{$args}); 
+		    transform: skew(#{$args});
+}
+
+
+@mixin scale($args...) {
+	-webkit-transform: scale(#{$args}); 
+	   -moz-transform: scale(#{$args}); 
+		-ms-transform: scale(#{$args}); 
+		 -o-transform: scale(#{$args}); 
+		    transform: scale(#{$args});
+}
+
+@mixin translate($args...) {
+	-webkit-transform: translate(#{$args}); 
+	   -moz-transform: translate(#{$args}); 
+		-ms-transform: translate(#{$args}); 
+		 -o-transform: translate(#{$args}); 
+		    transform: translate(#{$args});
+}
+
+@mixin translateY($args...) {
+	-webkit-transform: translateY(#{$args}); 
+	   -moz-transform: translateY(#{$args}); 
+		-ms-transform: translateY(#{$args}); 
+		 -o-transform: translateY(#{$args}); 
+		    transform: translateY(#{$args});
+}
+
+@mixin translateX($args...) {
+	-webkit-transform: translateX(#{$args}); 
+	   -moz-transform: translateX(#{$args}); 
+		-ms-transform: translateX(#{$args}); 
+		 -o-transform: translateX(#{$args}); 
+		    transform: translateX(#{$args});
+}
